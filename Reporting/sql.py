@@ -6,8 +6,8 @@ import sqlalchemy
 import psycopg2
 
 # set up mysql
-user = 'pdb-flaviodib'
-password = 'pacoaLwkoepdw9831!'
+user = 'USERNAME'
+password = 'PASS'
 host = 'SG-pacodb-1980-master.servers.mongodirector.com'
 port = '3306'
 database = 'paco_db'
@@ -15,8 +15,8 @@ database = 'paco_db'
 # set up postgres
 POSTGRES_ADDRESS = 'glovo-dwh-prod.cmsc5llor91g.eu-west-1.redshift.amazonaws.com'
 POSTGRES_PORT = '5439'
-POSTGRES_USERNAME = 'dl-flavio.diber'
-POSTGRES_PASSWORD = 'OSptdyLcositUFHWtQNPYCn1Y'
+POSTGRES_USERNAME = 'USERNAME'
+POSTGRES_PASSWORD = 'PASS'
 POSTGRES_DBNAME = 'glovodwh'
 postgres_str = ('postgresql://{username}:{password}@{ipaddress}:{port}/{dbname}'.format(username=POSTGRES_USERNAME,
                                                                                         password=POSTGRES_PASSWORD,
